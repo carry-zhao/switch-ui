@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name=viewport content="width=device-width, initial-scale=1,user-scalable=no">
+	<script type="text/javascript" src="js/zepto.js"></script>
+	<script type="text/javascript" src="js/event.js"></script>
+	<script type="text/javascript" src="js/touch.js"></script>
+	<script type="text/javascript" src="js/switch.zepto.js"></script>
+
+	<link rel="stylesheet" href="switch.css">
+
+</head>
+<body>
+	<div>
+		<label for="">你是否同意</label>
+		<input data-role="switch" id="checkbox1" type="checkbox"  value="y" />
+	</div>
+
+	<div>
+		<label for="">wifi:</label>
+		<input id="checkbox2" type="checkbox"  value="y" />
+		
+	</div>
+
+	<div>
+		<button id="check">检查结果</button>
+	</div>
+	<script type="text/javascript">
+		new Switch("checkbox2");
+	</script>
+
+
+</body>
+</html>
